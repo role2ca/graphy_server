@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster
+FROM node:hydrogen-bookworm-slim
 WORKDIR /app
 COPY graphserver.js .
 COPY package.json .
